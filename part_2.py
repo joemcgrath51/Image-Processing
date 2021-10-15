@@ -6,7 +6,7 @@ from skimage.color import rgb2gray
 
 import skimage as sk
 if __name__ == '__main__':
-    picture = np.array(Image.open("/home/joe/PycharmProjects/Image-Processing/scissors_col_2.jpg"))
+    picture = np.array(Image.open("scissors_col_2.jpg"))
 
     fig1, axes1 = plt.subplots(3, 5, figsize=(8, 4))
     grayscale = rgb2gray(picture)
